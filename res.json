@@ -1,0 +1,662 @@
+{
+  "code": "Ok",
+  "waypoints": [
+    {
+      "hint": "OKMmiVKV5IAYAAAABQAAAAAAAAAgAAAASjFaQdLNK0AAAAAAsPePQQwAAAADAAAAAAAAABAAAACU6QAA_kvMAKlYIQM8TMwArVghAwAA7wpNuAWe",
+      "distance": 4.231666,
+      "location": [13.388798, 52.517033],
+      "name": "Friedrichstraße"
+    },
+    {
+      "hint": "rWsjgP___38fAAAAUQAAACYAAAAeAAAAsowKQkpQX0Lx6yZCvsQGQh8AAABRAAAAJgAAAB4AAACU6QAASufMAOdwIQNL58wA03AhAwMAvxBNuAWe",
+      "distance": 2.226595,
+      "location": [13.428554, 52.523239],
+      "name": "Platz der Vereinten Nationen"
+    }
+  ],
+  "routes": [
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "intersections": [
+                {
+                  "out": 0,
+                  "entry": [true],
+                  "location": [13.388798, 52.517033],
+                  "bearings": [174]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.388798, 52.517033],
+                  [13.388802, 52.517009],
+                  [13.388827, 52.516848]
+                ],
+                "type": "LineString"
+              },
+              "duration": 7.4,
+              "distance": 20.7,
+              "name": "Friedrichstraße",
+              "weight": 9.2,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 174,
+                "bearing_before": 0,
+                "type": "depart",
+                "location": [13.388798, 52.517033]
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "out": 1,
+                  "in": 0,
+                  "entry": [false, true, true, false],
+                  "location": [13.388827, 52.516848],
+                  "bearings": [0, 90, 180, 270]
+                },
+                {
+                  "out": 1,
+                  "in": 3,
+                  "entry": [false, true, true, false],
+                  "location": [13.390708, 52.516983],
+                  "bearings": [0, 90, 180, 270]
+                },
+                {
+                  "out": 1,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.393172, 52.517192],
+                  "bearings": [0, 60, 255]
+                },
+                {
+                  "out": 1,
+                  "in": 3,
+                  "entry": [true, true, true, false],
+                  "location": [13.395131, 52.517346],
+                  "bearings": [0, 90, 180, 270]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false, true],
+                  "location": [13.396294, 52.517436],
+                  "bearings": [90, 180, 270, 345]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.398051, 52.517559],
+                  "bearings": [90, 150, 270]
+                },
+                {
+                  "out": 0,
+                  "in": 1,
+                  "entry": [true, false],
+                  "location": [13.398184, 52.517567],
+                  "bearings": [90, 270]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.399701, 52.517773],
+                  "bearings": [60, 150, 240]
+                },
+                {
+                  "out": 0,
+                  "in": 1,
+                  "entry": [true, false, true],
+                  "location": [13.40108, 52.518251],
+                  "bearings": [60, 240, 330]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false, false],
+                  "location": [13.404811, 52.519918],
+                  "bearings": [45, 120, 225, 315]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "lanes": [
+                    { "valid": false, "indications": ["left"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["none"] }
+                  ],
+                  "entry": [true, false, false, true],
+                  "location": [13.404987, 52.520013],
+                  "bearings": [45, 150, 225, 330]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.409504, 52.522309],
+                  "bearings": [60, 150, 225]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.410126, 52.522613],
+                  "bearings": [45, 150, 225]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "lanes": [
+                    { "valid": true, "indications": ["left"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight", "right"] }
+                  ],
+                  "entry": [true, true, false, false],
+                  "location": [13.412151, 52.523893],
+                  "bearings": [30, 120, 225, 270]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "lanes": [
+                    { "valid": false, "indications": ["left"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight", "right"] }
+                  ],
+                  "entry": [true, false, false, true],
+                  "location": [13.412359, 52.524069],
+                  "bearings": [30, 120, 210, 255]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, false, false],
+                  "location": [13.413582, 52.525084],
+                  "bearings": [30, 120, 210]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.414574, 52.525895],
+                  "bearings": [45, 120, 210]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "lanes": [
+                    { "valid": false, "indications": ["left"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": false, "indications": ["right"] }
+                  ],
+                  "entry": [true, true, false, false],
+                  "location": [13.415657, 52.52677],
+                  "bearings": [30, 135, 210, 315]
+                }
+              ],
+              "driving_side": "right",
+              "maneuver": {
+                "bearing_after": 82,
+                "location": [13.388827, 52.516848],
+                "type": "turn",
+                "bearing_before": 174,
+                "modifier": "left"
+              },
+              "duration": 228.1,
+              "distance": 2268,
+              "name": "Unter den Linden",
+              "geometry": {
+                "coordinates": [
+                  [13.388827, 52.516848],
+                  [13.389003, 52.516864],
+                  [13.389842, 52.51692],
+                  [13.390517, 52.516965],
+                  [13.390708, 52.516983],
+                  [13.39089, 52.517003],
+                  [13.392584, 52.517118],
+                  [13.392965, 52.517146],
+                  [13.393055, 52.517156],
+                  [13.393109, 52.517172],
+                  [13.393172, 52.517192],
+                  [13.393241, 52.517215],
+                  [13.393305, 52.517228],
+                  [13.393371, 52.517236],
+                  [13.393681, 52.517254],
+                  [13.393982, 52.517272],
+                  [13.394162, 52.517282],
+                  [13.394945, 52.517333],
+                  [13.394999, 52.517337],
+                  [13.395131, 52.517346],
+                  [13.395852, 52.517403],
+                  [13.396294, 52.517436],
+                  [13.397412, 52.517514],
+                  [13.398051, 52.517559],
+                  [13.398184, 52.517567],
+                  [13.398537, 52.51759],
+                  [13.398925, 52.517614],
+                  [13.399178, 52.517647],
+                  [13.399307, 52.517676],
+                  [13.399648, 52.517754],
+                  [13.399701, 52.517773],
+                  [13.400094, 52.517919],
+                  [13.400346, 52.517977],
+                  [13.400573, 52.518061],
+                  [13.400707, 52.51811],
+                  [13.40076, 52.51813],
+                  [13.401015, 52.518226],
+                  [13.40108, 52.518251],
+                  [13.401117, 52.518265],
+                  [13.40146, 52.518403],
+                  [13.401672, 52.518478],
+                  [13.40203, 52.518615],
+                  [13.402106, 52.518644],
+                  [13.402651, 52.518867],
+                  [13.40269, 52.518882],
+                  [13.402719, 52.518895],
+                  [13.402881, 52.51896],
+                  [13.403089, 52.519056],
+                  [13.40376, 52.51937],
+                  [13.403923, 52.519455],
+                  [13.404635, 52.519827],
+                  [13.404683, 52.519852],
+                  [13.404811, 52.519918],
+                  [13.404987, 52.520013],
+                  [13.405218, 52.52014],
+                  [13.405246, 52.520154],
+                  [13.405629, 52.520343],
+                  [13.406034, 52.520548],
+                  [13.40608, 52.520572],
+                  [13.406302, 52.520698],
+                  [13.407369, 52.521236],
+                  [13.408721, 52.521911],
+                  [13.409062, 52.522085],
+                  [13.409245, 52.522178],
+                  [13.409315, 52.522214],
+                  [13.409421, 52.522267],
+                  [13.409504, 52.522309],
+                  [13.409814, 52.522449],
+                  [13.409941, 52.522514],
+                  [13.409996, 52.52254],
+                  [13.410126, 52.522613],
+                  [13.410157, 52.522631],
+                  [13.410212, 52.522663],
+                  [13.410426, 52.522787],
+                  [13.410997, 52.523147],
+                  [13.411062, 52.523187],
+                  [13.41114, 52.523236],
+                  [13.411357, 52.52337],
+                  [13.411535, 52.52348],
+                  [13.4119, 52.523714],
+                  [13.411954, 52.523749],
+                  [13.412102, 52.523856],
+                  [13.412151, 52.523893],
+                  [13.412359, 52.524069],
+                  [13.412469, 52.524174],
+                  [13.412492, 52.524193],
+                  [13.412754, 52.524407],
+                  [13.41286, 52.524494],
+                  [13.413036, 52.524638],
+                  [13.41352, 52.525034],
+                  [13.413582, 52.525084],
+                  [13.413622, 52.525117],
+                  [13.413662, 52.52515],
+                  [13.414381, 52.525737],
+                  [13.414574, 52.525895],
+                  [13.414998, 52.526219],
+                  [13.415354, 52.526513],
+                  [13.415481, 52.526618],
+                  [13.415522, 52.526652],
+                  [13.415657, 52.52677],
+                  [13.415945, 52.527047]
+                ],
+                "type": "LineString"
+              },
+              "ref": "B 2; B 5",
+              "weight": 228.1,
+              "mode": "driving"
+            },
+            {
+              "intersections": [
+                {
+                  "out": 0,
+                  "in": 2,
+                  "lanes": [
+                    { "valid": false, "indications": ["left"] },
+                    { "valid": true, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight"] }
+                  ],
+                  "entry": [true, false, false, true],
+                  "location": [13.415945, 52.527047],
+                  "bearings": [30, 120, 210, 315]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.415945, 52.527047],
+                  [13.416123, 52.527239],
+                  [13.416143, 52.527264],
+                  [13.416227, 52.527366],
+                  [13.41677, 52.528019],
+                  [13.417058, 52.52832],
+                  [13.417087, 52.528356],
+                  [13.417166, 52.528458]
+                ],
+                "type": "LineString"
+              },
+              "duration": 18.2,
+              "distance": 177.4,
+              "name": "Prenzlauer Allee",
+              "weight": 18.2,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 26,
+                "location": [13.415945, 52.527047],
+                "type": "new name",
+                "bearing_before": 30,
+                "modifier": "straight"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "out": 1,
+                  "in": 2,
+                  "entry": [true, true, false, false],
+                  "location": [13.417166, 52.528458],
+                  "bearings": [30, 90, 210, 315]
+                },
+                {
+                  "out": 1,
+                  "in": 3,
+                  "entry": [false, true, true, false],
+                  "location": [13.423592, 52.528206],
+                  "bearings": [45, 120, 225, 285]
+                },
+                {
+                  "out": 1,
+                  "in": 3,
+                  "entry": [true, true, false, false],
+                  "location": [13.423868, 52.528136],
+                  "bearings": [45, 120, 210, 300]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.417166, 52.528458],
+                  [13.417325, 52.528459],
+                  [13.417347, 52.528459],
+                  [13.41749, 52.52846],
+                  [13.418213, 52.528505],
+                  [13.419049, 52.528557],
+                  [13.420105, 52.528634],
+                  [13.420235, 52.528644],
+                  [13.421256, 52.528724],
+                  [13.421348, 52.528728],
+                  [13.421483, 52.528717],
+                  [13.422499, 52.528497],
+                  [13.422697, 52.528423],
+                  [13.423305, 52.528275],
+                  [13.423359, 52.52826],
+                  [13.423592, 52.528206],
+                  [13.42372, 52.528174],
+                  [13.423763, 52.528163],
+                  [13.423868, 52.528136],
+                  [13.424085, 52.528082],
+                  [13.424483, 52.528021],
+                  [13.424657, 52.528015],
+                  [13.424751, 52.528021],
+                  [13.424842, 52.528033],
+                  [13.424993, 52.528068]
+                ],
+                "type": "LineString"
+              },
+              "duration": 55,
+              "distance": 547.1,
+              "name": "Prenzlauer Berg",
+              "weight": 55,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 85,
+                "location": [13.417166, 52.528458],
+                "type": "turn",
+                "bearing_before": 28,
+                "modifier": "right"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "out": 1,
+                  "in": 2,
+                  "entry": [true, true, false, true],
+                  "location": [13.424993, 52.528068],
+                  "bearings": [60, 150, 255, 345]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.425842, 52.527621],
+                  "bearings": [120, 225, 300]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.428041, 52.526565],
+                  "bearings": [135, 225, 315]
+                },
+                {
+                  "out": 0,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.429315, 52.525737],
+                  "bearings": [135, 225, 315]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.424993, 52.528068],
+                  [13.42505, 52.527998],
+                  [13.425079, 52.527967],
+                  [13.425103, 52.527942],
+                  [13.425184, 52.527885],
+                  [13.425334, 52.527819],
+                  [13.425413, 52.527784],
+                  [13.425842, 52.527621],
+                  [13.425877, 52.527607],
+                  [13.426147, 52.527497],
+                  [13.42632, 52.527427],
+                  [13.427123, 52.5271],
+                  [13.427263, 52.527043],
+                  [13.427939, 52.526634],
+                  [13.428041, 52.526565],
+                  [13.428644, 52.526179],
+                  [13.428738, 52.526118],
+                  [13.429043, 52.525916],
+                  [13.429315, 52.525737],
+                  [13.429893, 52.525394],
+                  [13.429982, 52.525341],
+                  [13.430227, 52.525195],
+                  [13.430302, 52.52513],
+                  [13.43036, 52.525063],
+                  [13.430405, 52.524964]
+                ],
+                "type": "LineString"
+              },
+              "duration": 47.9,
+              "distance": 509.2,
+              "name": "Friedenstraße",
+              "weight": 47.9,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 153,
+                "location": [13.424993, 52.528068],
+                "type": "turn",
+                "bearing_before": 67,
+                "modifier": "right"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "out": 1,
+                  "in": 2,
+                  "entry": [true, true, false],
+                  "location": [13.430405, 52.524964],
+                  "bearings": [135, 180, 345]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.430405, 52.524964],
+                  [13.430415, 52.524915],
+                  [13.430422, 52.524848],
+                  [13.430413, 52.52479],
+                  [13.430392, 52.524739],
+                  [13.430369, 52.524697],
+                  [13.43024, 52.524449],
+                  [13.430192, 52.524356],
+                  [13.430082, 52.524152],
+                  [13.430022, 52.524037],
+                  [13.429981, 52.523963],
+                  [13.429883, 52.523846],
+                  [13.429842, 52.523773],
+                  [13.429759, 52.523578],
+                  [13.429705, 52.523431],
+                  [13.429697, 52.523391],
+                  [13.429688, 52.52333],
+                  [13.429678, 52.523269]
+                ],
+                "type": "LineString"
+              },
+              "duration": 20.9,
+              "distance": 196.4,
+              "name": "Platz der Vereinten Nationen",
+              "weight": 20.9,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 174,
+                "location": [13.430405, 52.524964],
+                "type": "new name",
+                "bearing_before": 163,
+                "modifier": "straight"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "out": 3,
+                  "in": 0,
+                  "lanes": [
+                    { "valid": false, "indications": ["left"] },
+                    { "valid": false, "indications": ["straight", "left"] },
+                    { "valid": false, "indications": ["straight"] },
+                    { "valid": true, "indications": ["straight", "right"] }
+                  ],
+                  "entry": [false, false, true, true],
+                  "location": [13.429678, 52.523269],
+                  "bearings": [0, 90, 180, 270]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.429678, 52.523269],
+                  [13.429555, 52.523264],
+                  [13.429477, 52.523261],
+                  [13.429064, 52.52325],
+                  [13.428554, 52.523239]
+                ],
+                "type": "LineString"
+              },
+              "duration": 6.9,
+              "distance": 76.1,
+              "name": "Platz der Vereinten Nationen",
+              "weight": 6.9,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 267,
+                "location": [13.429678, 52.523269],
+                "type": "continue",
+                "bearing_before": 184,
+                "modifier": "right"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "in": 0,
+                  "entry": [true],
+                  "location": [13.428554, 52.523239],
+                  "bearings": [88]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": {
+                "coordinates": [
+                  [13.428554, 52.523239],
+                  [13.428554, 52.523239]
+                ],
+                "type": "LineString"
+              },
+              "duration": 0,
+              "distance": 0,
+              "name": "Platz der Vereinten Nationen",
+              "weight": 0,
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 268,
+                "type": "arrive",
+                "location": [13.428554, 52.523239]
+              }
+            }
+          ],
+          "weight": 386.2,
+          "distance": 3795,
+          "summary": "Unter den Linden, Karl-Liebknecht-Straße",
+          "duration": 384.4
+        }
+      ],
+      "weight_name": "routability",
+      "geometry": {
+        "coordinates": [
+          [13.388798, 52.517033],
+          [13.388827, 52.516848],
+          [13.398925, 52.517614],
+          [13.400346, 52.517977],
+          [13.402106, 52.518644],
+          [13.40376, 52.51937],
+          [13.409996, 52.52254],
+          [13.4119, 52.523714],
+          [13.415657, 52.52677],
+          [13.417166, 52.528458],
+          [13.421483, 52.528717],
+          [13.424085, 52.528082],
+          [13.424993, 52.528068],
+          [13.425184, 52.527885],
+          [13.427263, 52.527043],
+          [13.430227, 52.525195],
+          [13.430405, 52.524964],
+          [13.429678, 52.523269],
+          [13.428554, 52.523239]
+        ],
+        "type": "LineString"
+      },
+      "weight": 386.2,
+      "distance": 3795,
+      "duration": 384.4
+    }
+  ]
+}
